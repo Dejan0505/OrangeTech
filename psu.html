@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orange Tech. | Napajanja</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styless.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+<style>
+.thumbnail{
+  background-color: #111111;
+  border-width: 0px 0px 2px 0px;
+  border-color: #EB8442;
+  padding: 0px; }
+h4{
+  padding: 5px;
+  color:#EB8442;
+     }
+.center_image {
+  width: 655px;
+  height: 400px;
+  margin: 0 auto;
+}
+#skrol{
+  position: fixed;
+  right: 150px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #EB8442;
+  outline: none;
+  color: white;
+  border: none;
+    }
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top"><!-- Pocetak navbara -->
+      <div class="container"><!-- Konteiner za navbar -->
+        <div class="navbar-header"><!-- Brand ide ovde -->
+          <!-- Hamburger dugme -->
+          <button type="button" class="navbar-toggle collapsed" 
+            data-toggle="collapse" 
+            data-target="#collapsemenu"><!--  -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">
+            <!-- Logo -->
+            <img src="slike/orange_logo.png" width="120px" height="35px" alt="Orange Logo">
+            
+          </a>
+        </div><!-- Kraj diva za brend -->
+        <!-- Pocetak diva za collapse -->
+        <div class="collapse navbar-collapse" id="collapsemenu">
+            <ul class="nav navbar-nav font" ><!-- Pocetak liste za navbar -->
+              <li><a href="index.html">POČETNA</a></li>
+              <!-- <li><a href="Proizvodi.html">PROIZVODI</a></li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  PROIZVODI
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="procesori2.html">PROCESORI</a><br>
+                  <a class="dropdown-item" href="#">GRAFIČKE KARTE</a><br>
+                  <a class="dropdown-item" href="#">MATIČNE PLOČE</a><br>
+                  <a class="dropdown-item" href="#">RAM MEMORIJA</a><br>
+                  <a class="dropdown-item" href="#">SSD I HDD</a><br>
+                  <a class="dropdown-item" href="#">NAPAJANJA</a>
+                </div>
+              </li>
+              <li><a href="O_nama.html">O NAMA</a></li>
+              <li><a href="kontakt.html">KONTAKT</a></li>
+          </ul><!-- Kraj liste -->
+        </div><!-- Kraj div collapsa -->
+      </div><!-- Kraj konteiner navbara -->
+    </nav><!-- Kraj navbara -->
+    <div class="container content"><!-- Pocetak glavnog konteinera -->
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="slike/psu/psucover.jpg" alt="Napajanje cover"/>
+        </div><!-- row -->
+      </div><!-- col-md-12 -->
+
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header">
+            <h3 style="text-align: center;">Karakteristike</h3>
+          </div><!-- page-header -->
+          <ul id="karakteristike">
+            <p>
+                <b style="color: #EB8442;">Naponska jedinica (PSU) energija za naš PC!</b> <br>
+                Naponska jedinica ili napajanje – PSU (Power Supply Unit) je jedan od ključnih dijelova računara, jer snabdijeva strujom sve dijelove sistema koji to zahtijevaju. 
+                Koristi se i samo termin  napajanje.<br>
+                Naponska jedinica ili napajanje pretvara naizmjeničnu struju (AC) u jednosmjernu struju (DC) neophodnu da bi komponente računara normalno radile. 
+                Takođe reguliše pregrijavanje uz kontrolu napona, koji se može automatski ili ručno promijeniti u zavisnosti od napajanja.<br>
+
+                Za razliku od nekih hardverskih komponenti koje se koriste uz računar koje nisu nužno potrebne  (npr. štampač),
+                 napajanje je ključna komponenta, jer bez toga, ostatak unutrašnjeg hardvera ne može da funkcioniše.<br>
+
+                Matične ploče, kućišta i napajanja dolaze u mnogo različitih veličina i formata (engl. form factor). 
+                Sve tri komponente moraju biti kompatibilne da bi pravilno radile zajedno.<br>
+
+                Naponska jedinica ili napajanje ili PSU nije dio koji korisnik može sam servisirati. Radi vaše sigurnosti, 
+                pametno bi bilo da nikada ne otvarate jedinice za napajanje tj. najsigurnija varijanta je da zamjenite komplet napajanje.<br>
+
+                CoolMax i Ultra su najpopularniji proizvođači jedinica za napajanje. Uglavnom su već uključene pri  kupovini računara,
+                 tako da se izborom proizvođača uglavnom bavite prilikom zamjene.<br>
+                </p>
+                  <img class="img-responsive center_image" src="slike/psu/slika1.jpg" alt="Napajanje 1"> <br>
+                <p>
+                    Jedinica za napajanje se montira unutar zadnje strane kućišta. Ako pratite kabl za napajanje računara, vidjećete da se on priključuje sa zadnje strane napajanja.
+
+                    Zadnja strana je obično i jedini dio jedinice za napajanje koju će većina ljudi ikada vidjeti. 
+                    Tu je otvor za  ventilator koji izbacuje topao vazduh iz napajanja hladeći elektronske komponente u njemu,
+                     a ujedno reguliše strujanje vazduha u cijelom kućištu (izbacuje topao vazduh iz kućišta u ambijent).
+                    </p>
+                    <img class="img-responsive center_image" src="slike/psu/slika2.jpg" alt="Napajanje 2"> <br>
+                    <p>Strana jedinice za napajanje okrenuta prema van, na kućištu ima trostruki port u koji se priključuje kabl  priključen na izvor napajanja.
+                        Tu se nalazi i  prekidač napajanja i naponski prekidač napajanja.<br>
+                        Veliki snopovi žica u boji šire se sa suprotne strane jedinice za napajanje u računar. 
+                        Konektori na suprotnim krajevima žica se povezuju sa različitim komponentama unutar računara da im dostavljaju napajanje. 
+                        Neki su posebno dizajnirani za priključenje na matičnu ploču, dok ostali imaju konektore koji se uklapaju u ventilatore,
+                         hard diskove, optičke diskove, pa čak i neke high powered video kartice.
+                        </p>
+                        <img class="img-responsive center_image" src="slike/psu/slika3.jpg" alt="Napajanje 3"> <br>
+                        <p>Najvažnija stvar jest snaga napajanja. 
+                            Parametri na koje treba obratiti pažnju su takozvana maksimalna kombinovana snaga pozitivnih napajanja i maksimalna struja svakog napajanja.
+                             Svaki dio računara zahtijeva određenu količinu energije da  bi pravilno funkcionisao, te je važno da imate PSU koja može pružiti pravu količinu.
+                              Veoma zgodan alat Cooler Master Supply Calculator može vam pomoći da odredite koliko vam je potrebno.<br><br>
+
+                            Potrebno je posebnu pažnju obratiti na izbor napajanja za računarski sistem. 
+                            Napajanje predstavlja srž sistema i preporuka je uložiti nešto više novca za bolju naponsku jedinicu.<br>
+                            
+                            Napajanje je ključni dio PC – ja, jer snabdijeva strujom sve dijelove sistema koji to zahtijevaju.<br>
+                            
+                            Takođe, napajanje je i jedan od dijelova najsklonijih kvarovima u svakom računarskom sistemu. 
+                            Neispravno napajanje moglo bi da ošteti ostale dijelove računara tako što bi im isporučilo neodgovarajući ili nestabilan napon. 
+                            Zbog značaja napajanja za ispravan i pouzdan rad sistema, trebalo bi razumjeti ulogu i ograničenja napajanja, 
+                            koje probleme ono može da prouzrokuje i kako da se ti problemi otklanjaju.<br>
+                            </p>
+                            
+          </ul>
+        </div><!-- col-md-6 -->
+      </div><!-- row -->
+
+      <div class="row"> <!--header za dodatne karakteristike-->
+        <div class="col-md-12">
+          <div class="page-header">
+            <h3 style="text-align: center;">Dodatne karakteristike</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6"> <!-- leva strana karakteristika-->
+          <blockquote>
+            <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+             Proizvođači:
+              <li>Antec</li>
+              <li>Asus</li>
+              <li>Cougar</li>
+              <li>Chieftec</li>
+              <li>Cooler Master</li>
+              <li>Deep Cool</li>
+              <li>FSP</li>
+              <li>Gigabyte</li>
+              <li>IG-Max</li>
+              <li>InterTech</li>
+              <li>LC Power</li>
+              <li>Njoy</li>
+              <li>RPC</li>
+              <li>Seasonic</li>
+              <li>Zeus</li>
+              <li>NZXT</li>
+            </p>
+            </blockquote>
+            <blockquote>
+              <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+              Izlazna snaga:
+              <li>450w</li>
+              <li>500W</li>
+              <li>550W</li>
+              <li>600W</li>
+              <li>650W</li>
+              <li>700W</li>
+              <li>750W</li>
+              <li>850W</li>
+              <li>1000W</li>
+              <li>1250W</li>
+              <li>1650W</li>
+              <li>1800W</li>
+              </p>
+            </blockquote>
+        </div><!-- col-md-6 -->
+
+        <div class="col-md-6"> <!--desna strana karakteristika-->
+            <blockquote>
+              <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+               Tip:
+                <li>Eksterno</li>
+                <li>Modularno</li>
+                <li>Semi-Modularno</li>
+                <li>Standardno</li>
+                
+              </p>
+              </blockquote>
+          <blockquote>
+            <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+             Sertifikat:
+              <li>80 Plus</li>
+              <li>80 Plus Bronze</li>
+              <li>50 Plus Gold</li>
+              <li>80 Plus Platinum</li>
+              <li>80 Plus Titanium</li>
+            </p>
+            </blockquote>
+          
+            <blockquote>
+                <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+                 Oblik ( Form factor ):
+                  <li>ATX (PS2)</li>
+                  <li>Micro-ATX</li>
+                  <li>SFX</li>     
+                </p>
+                </blockquote>
+        </div><!-- col-md-6 -->
+      </div><!-- row -->
+
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header">
+            <h3 style="text-align: center;">Galerija</h3>
+          </div><!-- page-header -->
+          <div class="row">
+             <div class="col-md-4">
+               <img class="img-responsive zoom_05" src="slike/psu/psu1.jpg" alt="Napajanje 4" data-zoom-image="slike/psu/psu1.jpg"/>
+             </div><!-- col-md-4  -->
+              <div class="col-md-4">
+                <img class="img-responsive zoom_05" src="slike/psu/psu2.jpg" alt="Napajanje 5" data-zoom-image="slike/psu/psu2.jpg"/>
+              </div><!-- col-md-4  -->
+              <div class="col-md-4">
+                <img class="img-responsive zoom_05" src="slike/psu/psu3.jpg" alt="Napajanje 6" data-zoom-image="slike/psu/psu3.jpg"/>
+              </div><!-- col-md-4  -->  
+          </div><!-- row -->
+          <div class="row" style="margin-top: 10px;">
+            <div class="col-md-4">
+               <img class="img-responsive zoom_05" src="slike/psu/psu4.jpg" alt="Napajanje 7" data-zoom-image="slike/psu/psu4.jpg"/>
+             </div><!-- col-md-4  -->
+             <div class="col-md-4">
+               <img class="img-responsive zoom_05" src="slike/psu/psu5.jpg" alt="Napajanje 8" data-zoom-image="slike/psu/psu5.jpg"/>
+             </div><!-- col-md-4  -->
+             <div class="col-md-4">
+               <img class="img-responsive zoom_05" src="slike/psu/psu6.jpg" alt="Napajanje 9" data-zoom-image="slike/psu/psu6.jpg"/>
+             </div><!-- col-md-4  -->
+          </div><!-- row -->
+        </div><!-- "col-md-12" -->
+      </div><!-- row -->
+
+      <button id="skrol">
+        <i>&#8593;</i>
+      </button>
+      
+        <footer><!-- Footer -->
+        <div class="col-md-2 col-md-offset-5  col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3 "><!--  div -->
+          <ul class="list-inline footer-social-icons">
+            <li>
+              <a href="#" target="_blank">
+                 <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </li>
+            <li class="center-block">
+              <a href="#" target="_blank">
+                <i class="fa fa-twitter-square fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa fa-instagram fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div><!--  div kraj -->
+        <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6  col-xs-10 col-xs-offset-1 col-lg-offset-4 col-lg-4"><!-- div2 -->
+        </div><!--  div2 kraj -->
+        <div class="col-md-offset-4 col-md-4  col-sm-12  col-xs-12 ">
+          <ul class="list-inline">
+            <li><a href="index.html">POČETNA </a>|</li>
+            <li><a href="kontakt.html">KONTAKT </a>|</li>
+            <li><a href="FAQ.html">FAQ </a></li>
+          </ul>
+        </div>
+        <div class="col-md-offset-4 col-md-4 centered col-sm-offset-3 col-sm-6 col-xs-10 col-xs-offset-1" ><!--  div3  -->
+          <h6 style="color: #9d9d9d; text-align: center;">Copyright © 2020 orange tech. Sva prava zadržana.</h6>
+        </div><!--  div3 kraj -->
+      </footer><!-- Footer kraj -->
+    </div><!-- Kraj glavnog konteinera -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.elevatezoom.js"></script>
+    <!-- skripta za zoom od elevata -->
+    <script>
+          $('.zoom_05').elevateZoom({zoomType: "inner",cursor: "crosshair", zoomWindowFadeIn: 500,zoomWindowFadeOut: 750}); 
+    </script>
+    <script>
+      $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip(); 
+      });
+    </script>
+    <script src="korpa.js"></script>
+  </body>
+</html>

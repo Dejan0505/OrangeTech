@@ -1,0 +1,3 @@
+ar53600x,AMD          ,6      ,12      ,3.8Ghz      ,AMD Ryzen 5          ,ryzen5.jpg               ,32.999RSD
+ar73700x,AMD          ,8      ,16      ,3.6Ghz      ,AMD Ryzen 7          ,ryzen7.jpg               ,41.999RSD
+ar93900x,AMD          ,12     ,24      ,3.8Ghz      ,AMD Ryzen 9          ,ryzen9.jpg               ,59.999RSD

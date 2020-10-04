@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orange Tech. | Ram memorija</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styless.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+<style>
+.thumbnail{
+  background-color: #111111;
+  border-width: 0px 0px 2px 0px;
+  border-color: #EB8442;
+  padding: 0px; }
+h4{
+  padding: 5px;
+  color:#EB8442;
+     }
+.center_image {
+  width: 655px;
+  height: 400px;
+  margin: 0 auto;
+}
+#skrol{
+  position: fixed;
+  right: 150px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #EB8442;
+  outline: none;
+  color: white;
+  border: none;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top"><!-- Pocetak navbara -->
+      <div class="container"><!-- Konteiner za navbar -->
+        <div class="navbar-header"><!-- Brand ide ovde -->
+          <!-- Hamburger dugme -->
+          <button type="button" class="navbar-toggle collapsed" 
+            data-toggle="collapse" 
+            data-target="#collapsemenu"><!-- -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">
+            <!-- Logo -->
+            <img src="slike/orange_logo.png" width="120px" height="35px" alt="Orange Logo">
+            
+          </a>
+        </div><!-- Kraj diva za brend -->
+        <!-- Pocetak diva za collapse -->
+        <div class="collapse navbar-collapse" id="collapsemenu">
+            <ul class="nav navbar-nav font" ><!-- Pocetak liste za navbar -->
+              <li><a href="index.html">POČETNA</a></li>
+              <!-- <li><a href="Proizvodi.html">PROIZVODI</a></li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  PROIZVODI
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="procesori2.html">PROCESORI</a><br>
+                  <a class="dropdown-item" href="#">GRAFIČKE KARTE</a><br>
+                  <a class="dropdown-item" href="#">MATIČNE PLOČE</a><br>
+                  <a class="dropdown-item" href="#">RAM MEMORIJA</a><br>
+                  <a class="dropdown-item" href="#">SSD I HDD</a><br>
+                  <a class="dropdown-item" href="#">NAPAJANJA</a>
+                </div>
+              </li>
+              <li><a href="O_nama.html">O NAMA</a></li>
+              <li><a href="kontakt.html">KONTAKT</a></li>
+          </ul><!-- Kraj liste -->
+        </div><!-- Kraj div collapsa -->
+      </div><!-- Kraj konteiner navbara -->
+    </nav><!-- Kraj navbara -->
+    <div class="container content"><!-- Pocetak glavnog konteinera -->
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="slike/ram/ramcover2.jpg" alt="Ram cover"/>
+        </div><!-- row -->
+      </div><!-- col-md-12 -->
+
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header">
+            <h3 style="text-align: center;">Karakteristike</h3>
+          </div><!-- page-header -->
+          <ul id="karakteristike">
+            <p><b style="color: #EB8442;">RAM – Random Access Memory</b> (radna memorija) je mjesto u računaru gdje se čuvaju programi i podaci  koje procesor trenutno obrađuje i koristi. 
+                RAM je radni prostor u kom su spremljeni svi pokrenuti programi i otvoreni dokumenti.  Za razliku od drugih vrsta memorije, kao što je hard disk (HDD), 
+                solid-state drive (SSD) ili optički pogon, iz RAM-a je puno brže čitati podatke, kao i upisivati ih u istu. Podaci ostaju u RAM-u dok računar radi. 
+                Kada se računar isključi, RAM gubi podatke. Kada ga uključite opet, operativni sistem i druge datoteke se ponovno učitavaju u RAM, obično iz HDD-a ili SSD-a.
+                RAM možete uporediti sa osobom kratkotrajne memorije i hard disk sa osobom dugoročnog pamćenja. 
+                Kratkoročno pamćenje se fokusira na radu „pri ruci“, pamti toliko činjenica koliko mu je potrebno u tom trenutku. 
+                Kako  se kratkoročno pamćenje popunjava, vaš mozak je ponekad u stanju osvježiti ga s činjenicama pohranjenim u dugoročno pamćenje. 
+                Računar takođe radi na ovaj način. Ako se RAM napuni, procesor neprestano odlazi  ka hard disku za osvježavanje starih podataka u RAM-u sa novim, 
+                 što usporava rad računara. Za razliku od hard diska, koji se može napuniti podacima toliko da ih ne može više prihvatiti, RAM-u nikad ne ponestane memorije,
+                  ali kombinacija RAM-a i memorije za pohranu podataka može biti u potpunosti iskorištena.
+                </p>
+                  <img class="img-responsive center_image" src="slike/ram/slika1.png" alt="Ram 1"> <br>
+                <p><b style="color: #EB8442;">DRAM vs SRAM</b> <br>
+                    RAM dolazi u dva osnovna oblika: <br>
+                    – Dynamic random access memory (DRAM) je ono što čini uređaj RAM-a i, kao što je već rečeno, zahtijeva stalno napajanje da zadržavala pohranjene podatake.<br>
+                    – Static random access memory (SRAM) ne treba stalno napajanje da bi zadržala podatke, 
+                    ovi memorijski čipovi su mnogo veći i skuplji od ekvivalentne količine DRAM-a. Međutim, SRAM je znatno brža od DRAM-a. 
+                    Razlika u cijeni i brzini dovodi do tog da se  SRAM uglavnom koristi u malim količinama kao cache memorija unutar procesora.
+                    </p>
+                    <img class="img-responsive center_image" src="slike/ram/slika2.jpg" alt="Ram 2"> <br>
+                    <p><b style="color: #EB8442;">Istorija RAM-a</b> <br>
+                        RAM je nastala kao asinhrona, odnosno miročipovi RAM-a imali su različitu brzinu  protoka podatka od mikročipova procesora.  
+                        Kako su  procesori postajali moćniji RAM nije mogla držati korak sa zahtjevima za podacima iz procesora, i to je stvaralo problem.
+                         U ranim devedesetim, brzina  protoka podatka je  sinhronizovana s uvođenjem sinhronnizovane  dinamičke memorije slučajnog pristupa (SDRAM). 
+                         SDRAM dostigla svoj limit brzo, budući da prenosi podatke istom brzinom.
+                          Oko 2000. godine je razvijena  double data rate memorija sa slučajnim pristupom (RAM DDR).
+                           Ona je prenosila podatke dva puta u jednom ciklusu – na početku i na kraju . Uvođenjem  DDR RAM čini se  da  se promijenila definicija SDRAM, 
+                           koju mnogi izvori sada definišu kao jednu brzinu prijenosa podataka RAM-a.
+                           DDR RAM se do sada razvijala tri puta, kroz DDR2, DDR3 i DDR4. Svaka verzija poboljšava brzinu protoka podataka i smanjuje potrošnju energije. 
+                           Međutim, svaka verzija nije kompatibilna s prethodnom, jer se podaci obrađuju u većim serijama u svakoj inovaciji.
+                        </p>
+                        <img class="img-responsive center_image" src="slike/ram/slika3.jpg" alt="Ram 3"> <br>
+                        <p><b style="color: #EB8442;">Veličina RAM-a</b><br>
+                            RAM je mala, kako u fizičkom smislu (pohranjena u mikročipovima), tako i u količini podataka koje može čuvati. 
+                            Prosječni računari dolaze sa 4GB RAM-a, dok se na hard disku može čuvati i 10 terabajta.
+                            RAM dolazi u obliku diskretnih ili zasebnih mikročipova i modula koji se priključuju na slotove na matičnoj ploči računara. 
+                            Ovi slotovi su povezani  putem sabirnica do procesora. HDD, s druge strane, pohranjuje podatke na magnetizovanu površinu koja 
+                            izgleda kao fonografski  zapisnik, dok SSD pohranjuje podatke u memorijskim čipovima kojima je, za razliku od RAM-a, 
+                            nebitno imate li napajanje sve vrijeme, i neće izgubiti podatke kada je napajanje isključeno.
+                            </p>
+                            <img class="img-responsive center_image" src="slike/ram/slika4.jpg" alt="Ram 4"> <br>
+                            <p>Većina računara omogućavaju korisnicima da se poveća broj RAM modula do određene granice. Povećavajući RAM na računaru smanjuje se vrijeme koje 
+                                procesor ima za čitanje podataka s hard diska, operaciju koja traje mnogo duže nego čitanje podataka iz RAM-a. Vrijeme pristupa RAM-a se mjeri 
+                                nanosekundama, dok je vrijeme storage memory access u milisekundama.<br><br>
+
+                                Ako želite da kupite memoriju, morate voditi računa o sledećem: <br>
+                                -koji tip memorije može da se ugradi u matičnu ploču<br>
+                                -koji  procesor imate<br>  
+                                -koji operativni sistem imate<br>
+                                -koji tip računara imate, odnosno da li je laptop ili desktop računar u pitanju.</p>
+                                <img class="img-responsive center_image" src="slike/ram/slika5.jpg" alt="Ram 5"> <br>
+                  
+          </ul>
+        </div><!-- col-md-6 -->
+      </div><!-- row -->
+
+      <div class="row"> <!--header za dodatne karakteristike-->
+        <div class="col-md-12">
+          <div class="page-header">
+            <h3 style="text-align: center;">Dodatne karakteristike</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6"> <!-- leva strana karakteristika-->
+          <blockquote>
+            <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+             Proizvođači:
+              <li>A-Data</li>
+              <li>Apacer</li>
+              <li>Corsair</li>
+              <li>Crucial</li>
+              <li>G.Skill</li>
+              <li>Gigabyte</li>
+              <li>Kingston</li>
+              <li>Transcend</li>
+              <li>Patriot</li>
+              <li>Samsung</li>
+            </p>
+            </blockquote>
+            <blockquote>
+              <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+              Kapacitet:
+              <li>16GB</li>
+              <li>16GB kit</li>
+              <li>32GB</li>
+              <li>32GB kit</li>
+              <li>64GB kit</li>
+              <li>8GB</li>
+              <li>8GB kit</li>
+              <li>4GB</li>
+              <li>2GB</li>
+              </p>
+            </blockquote>
+
+            <blockquote>
+                <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+                Voltaža:
+                <li>1.2V</li>
+                <li>1.35V</li>
+                <li>1.5V</li>
+                <li>18.V</li>
+                <li>2.5V</li>
+                </p>
+              </blockquote>
+        </div><!-- col-md-6 -->
+
+        <div class="col-md-6"> <!--desna strana karakteristika-->
+            <blockquote>
+              <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+               Maksimalna frekvencija:
+                <li>800Mhz</li>
+                <li>1333Mhz</li>
+                <li>1600Mhz</li>
+                <li>1866Mhz</li>
+                <li>2400Mhz</li>
+                <li>2666Mhz</li>
+                <li>3000Mhz</li>
+                <li>3200Mhz</li>
+                <li>3466Mhz</li>
+                <li>3600Mhz</li>
+                <li>3733Mhz</li>
+                <li>4000Mhz</li>
+              </p>
+              </blockquote>
+          <blockquote>
+            <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+             Tip memorije:
+              <li>DDR2</li>
+              <li>DDR3</li>
+              <li>DDR4</li>
+            </p>
+            </blockquote>
+          <blockquote>
+            <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+            Latencija:
+            <li>CL9</li>
+            <li>CL10</li>
+            <li>CL11</li>
+            <li>CL12</li>
+            <li>CL13</li>
+            <li>CL15</li>
+            <li>CL16</li>
+            <li>CL17</li>
+            <li>CL18</li>
+            <li>CL19</li>
+            <li>CL20</li>
+            <li>CL22</li>
+            <li>CL5</li>
+            </p>
+          </blockquote>
+        </div><!-- col-md-6 -->
+      </div><!-- row -->
+
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header">
+            <h3 style="text-align: center;">Galerija</h3>
+          </div><!-- page-header -->
+          <div class="row">
+             <div class="col-md-4">
+               <img class="img-responsive zoom_05" src="slike/ram/ram1.jpg" alt="Ram 6" data-zoom-image="slike/ram/ram1.jpg"/>
+             </div><!-- col-md-4  -->
+              <div class="col-md-4">
+                <img class="img-responsive zoom_05" src="slike/ram/ram2.jpg" alt="Ram 7" data-zoom-image="slike/ram/ram2.jpg"/>
+              </div><!-- col-md-4  -->
+              <div class="col-md-4">
+                <img class="img-responsive zoom_05" src="slike/ram/ram3.jpg" alt="Ram 8" data-zoom-image="slike/ram/ram3.jpg"/>
+              </div><!-- col-md-4  -->  
+          </div><!-- row -->
+          <div class="row" style="margin-top: 10px;">
+            <div class="col-md-4">
+               <img class="img-responsive zoom_05" src="slike/ram/ram4.jpg" alt="Ram 9" data-zoom-image="slike/ram/ram4.jpg"/>
+             </div><!-- col-md-4  -->
+             <div class="col-md-4">
+               <img class="img-responsive zoom_05" src="slike/ram/ram5.jpg" alt="Ram 10" data-zoom-image="slike/ram/ram5.jpg"/>
+             </div><!-- col-md-4  -->
+             <div class="col-md-4">
+               <img class="img-responsive zoom_05" src="slike/ram/ram6.jpg" alt="Ram 11" data-zoom-image="slike/ram/ram6.jpg"/>
+             </div><!-- col-md-4  -->
+          </div><!-- row -->
+        </div><!-- "col-md-12" -->
+      </div><!-- row -->
+
+      <button id="skrol">
+        <i>&#8593;</i>
+      </button>
+      
+        <footer><!-- Footer -->
+        <div class="col-md-2 col-md-offset-5  col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3 "><!--  div -->
+          <ul class="list-inline footer-social-icons">
+            <li>
+              <a href="#" target="_blank">
+                 <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </li>
+            <li class="center-block">
+              <a href="#" target="_blank">
+                <i class="fa fa-twitter-square fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa fa-instagram fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div><!--  div kraj -->
+        <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6  col-xs-10 col-xs-offset-1 col-lg-offset-4 col-lg-4"><!--  div2 -->
+        </div><!--  div2 kraj -->
+        <div class="col-md-offset-4 col-md-4  col-sm-12  col-xs-12 ">
+          <ul class="list-inline">
+            <li><a href="index.html">POČETNA </a>|</li>
+            <li><a href="kontakt.html">KONTAKT </a>|</li>
+            <li><a href="FAQ.html">FAQ </a></li>
+          </ul>
+        </div>
+        <div class="col-md-offset-4 col-md-4 centered col-sm-offset-3 col-sm-6 col-xs-10 col-xs-offset-1" ><!--  div3  -->
+          <h6 style="color: #9d9d9d; text-align: center;">Copyright © 2020 orange tech. Sva prava zadržana.</h6>
+        </div><!--  div3 kraj -->
+      </footer><!-- Footer kraj -->
+    </div><!-- Kraj glavnog konteinera -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.elevatezoom.js"></script>
+    <!-- skripta za zoom od elevata -->
+    <script>
+          $('.zoom_05').elevateZoom({zoomType: "inner",cursor: "crosshair", zoomWindowFadeIn: 500,zoomWindowFadeOut: 750}); 
+    </script>
+    <script>
+      $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip(); 
+      });
+    </script>
+    <script src="korpa.js"></script>
+  </body>
+</html>

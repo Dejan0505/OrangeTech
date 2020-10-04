@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orange Tech. | Procesori</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styless.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+<style>
+.thumbnail{
+  background-color: #111111;
+  border-width: 0px 0px 2px 0px;
+  border-color: #EB8442;
+  padding: 0px; 
+  margin-top: 20px;}
+h4{
+  padding: 5px;
+  color: #EB8442;
+     }
+option {
+  color: black;
+     }
+  </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top"><!-- Pocetak navbara -->
+      <div class="container"><!-- Konteiner za navbar -->
+        <div class="navbar-header"><!-- Brand ide ovde -->
+          <!-- Hamburger dugme -->
+          <button type="button" class="navbar-toggle collapsed" 
+            data-toggle="collapse" 
+            data-target="#collapsemenu"><!--  -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">
+            <!-- Logo -->
+            <img src="slike/orange_logo.png" width="120px" height="35px" alt="Orange Logo">
+          </a>
+        </div><!-- Kraj diva za brend -->
+        <!-- Pocetak diva za collapse -->
+        <div class="collapse navbar-collapse" id="collapsemenu">
+            <ul class="nav navbar-nav font" ><!-- Pocetak liste za navbar -->
+              <li><a href="index.html">POČETNA</a></li>
+              <!-- <li><a href="Proizvodi.html">PROIZVODI</a></li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  PROIZVODI
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="procesori2.html">PROCESORI</a><br>
+                  <a class="dropdown-item" href="#">GRAFIČKE KARTE</a><br>
+                  <a class="dropdown-item" href="#">MATIČNE PLOČE</a><br>
+                  <a class="dropdown-item" href="#">RAM MEMORIJA</a><br>
+                  <a class="dropdown-item" href="#">SSD I HDD</a><br>
+                  <a class="dropdown-item" href="#">NAPAJANJA</a>
+                </div>
+              </li>
+              <li><a href="O_nama.html">O NAMA</a></li>
+              <li><a href="kontakt.html">KONTAKT</a></li>
+          </ul><!-- Kraj liste -->
+        </div><!-- Kraj div collapsa -->
+      </div><!-- Kraj konteiner navbara -->
+    </nav><!-- Kraj navbara -->
+    
+    <div class="container content"><!-- Pocetak glavnog konteinera -->
+       
+      <div class="row">
+        <div class="col-md-4">
+          <div class="page-header">
+            <h2>Filteri</h2>
+          </div><!-- page-header -->
+          <br>
+          <label for="iproizvodjac" style="color: #EB8442;">Proizvodjac:</label>
+
+            <select name="nproizvodjac" id="iproizvodjac">
+                <option value="AMD">AMD</option>
+                <option value="INTEL">INTEL</option>
+            </select>
+
+            <br><hr>
+
+            <label for="ijezgro" style="color: #EB8442;">Broj jezgara:</label>
+
+            <select name="njezgro" id="ijezgro">
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+                <option value="12">12</option>
+                <option value="16">16</option>
+                <option value="24">24</option>
+            </select>
+            <br><hr>
+
+            <label for="ithread" style="color: #EB8442;">Threads:</label>
+
+            <select name="nthread" id="ithread">
+                <option value="6">6</option>
+                <option value="8">8</option>
+                <option value="12">12</option>
+                <option value="16">16</option>
+                <option value="24">24</option>
+                <option value="32">32</option>
+                <option value="48">48</option> 
+            </select>
+            <br><hr>
+            <label for="ifrek" style="color: #EB8442;">Radna frekvencija:</label>
+
+            <select name="nfrek" id="ifrek">
+                <option value="3.4Ghz">3.4Ghz</option>
+                <option value="3.5Ghz">3.5Ghz</option>
+                <option value="3.6Ghz">3.6Ghz</option>
+                <option value="3.7Ghz">3.7Ghz</option>
+                <option value="3.8Ghz">3.8Ghz</option>
+                <option value="3.9Ghz">3.9Ghz</option>
+            </select>
+            <br><hr>
+            
+            
+            <label for="icpu" style="color: #EB8442;">Tip procesora:</label>
+
+            <select name="ncpu" id="icpu">
+                <option value="AMD Ryzen 3">AMD Ryzen 3</option>
+                <option value="AMD Ryzen 5">AMD Ryzen 5</option>
+                <option value="AMD Ryzen 7">AMD Ryzen 7</option>
+                <option value="AMD Ryzen 9">AMD Ryzen 9</option>
+            </select>
+            <hr>
+
+
+
+        </div>
+
+        <div class="col-md-8">
+          <div class="page-header">
+            <h2>Procesori</h2>
+          </div><!-- page-header -->
+          <div class="row">
+            <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="slike/procesor2/ryzen5.jpg" alt="Procesor Ryzen 5 3600x">
+              <a href="ryzen53600x.html"><h4>AMD Ryzen 5 3600X</h4></a>
+            </div><!-- thumbnail -->
+          </div><!-- col-md-4 -->
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="slike/procesor2/ryzen7.jpg" alt="Procesor Ryzen 7 3700x">
+              <a href="ryzen73700x.html"><h4>AMD Ryzen 7 3700X</h4></a>
+            </div><!-- thumbnail -->
+          </div><!-- col-md-4 -->
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="slike/procesor2/ryzen9.jpg" alt="Procesor Ryzen 9 3900x">
+              <a href="ryzen93900x.html"><h4>AMD Ryzen 9 3900X</h4></a>
+            </div><!-- thumbnail -->
+          </div><!-- col-md-4 -->
+          </div><!-- row -->
+        </div><!-- col-md-12 -->
+      </div><!-- row -->
+
+      
+      <div id="ispisTeksta"></div>
+
+      
+      <footer><!-- Footer -->
+        <div class="col-md-2 col-md-offset-5  col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3 "><!--  div -->
+          <ul class="list-inline footer-social-icons">
+            <li>
+              <a href="#" target="_blank">
+                 <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </li>
+            <li class="center-block">
+              <a href="#" target="_blank">
+                <i class="fa fa-twitter-square fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa fa-instagram fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div><!--  div kraj -->
+        <div class="col-md-offset-4 col-md-4  col-sm-12  col-xs-12 ">
+          <ul class="list-inline">
+            <li><a href="index.html">POČETNA </a>|</li>
+            <li><a href="kontakt.html">KONTAKT </a>|</li>
+            <li><a href="FAQ.html">FAQ </a></li>
+          </ul>
+        </div>
+        <div class="col-md-offset-4 col-md-4 centered col-sm-offset-3 col-sm-6 col-xs-10 col-xs-offset-1" ><!--  div3  -->
+          <h6 style="color: #9d9d9d; text-align: center;">Copyright © 2020 orange tech. Sva prava zadržana.</h6>
+        </div><!--  div3 kraj -->
+      </footer><!-- Footer kraj -->
+    </div><!-- Kraj glavnog konteinera -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+
+      fetch('./datoteka/vebprodavnica.txt')
+        .then(response => response.text())
+        .then(data => obrada(data));
+        
+
+        function obrada (tekst) {
+          niz = tekst.split('\n');
+          console.log(niz);
+
+          nizPodaci = [];
+          // string svojstva pretvoren u niz svojstava
+          for(let i=0; i<niz.length; i++) {
+            nizPodaci.push(niz[i].split(','));
+            
+          }
+          console.log(nizPodaci);
+          // uklanjanje belina
+          for(let i=0; i<nizPodaci.length; i++){
+            for(let j=0; j<nizPodaci[i].length; j++){
+              nizPodaci[i][j]=nizPodaci[i][j].trim();
+            }
+          }
+          console.log(nizPodaci);
+
+          svojstva=['sifra', 'nproizvodjac', 'njezgro', 'nthread', 'nfrek', 'ncpu', 'slika', 'cena'];
+
+          artikli = [];
+
+          for(let i=0; i<nizPodaci.length; i++){
+            obj =  new Object();
+            for(let j=0; j<8; j++) {
+              obj[svojstva[j]] = nizPodaci[i][j];
+
+            }
+              artikli.push(obj);
+              // console.log(obj);
+          }
+          
+          console.log(artikli);
+          var rezultat = [];
+          opcija = document.getElementsByTagName("select");
+          console.log(opcija);
+            for(let i=0; i<opcija.length; i++){
+              opcija[i].addEventListener("change",function(){
+                var ind = opcija[i].selectedIndex;
+                console.log(ind);
+                console.log(opcija[i].name);
+
+                rezultat = artikli.filter(element => element[opcija[i].name] == opcija[i][ind].value);
+                console.log(opcija[i][ind].value);
+                console.log(rezultat);
+                // praznjenje tabele
+                isprazniTabelu();
+
+
+                // umetanje tabele
+                kreirajTabelu();
+                tabela = document.getElementById('iTabela');
+                ispis = document.getElementById('ispisTeksta');
+                ispisi2 = document.getElementById('123');
+                if (rezultat.length !=0) {
+                  //tabela.style.display = 'table';
+                  prazanRed = tabela.insertRow(1);
+                  cNazivArtikla = prazanRed.insertCell(0);
+                  cProizvodjac = prazanRed.insertCell(1);
+                  cJezgro = prazanRed.insertCell(2);
+                  cThread = prazanRed.insertCell(3);
+                  cRadnaFrek = prazanRed.insertCell(4);
+                  cTipProcesora = prazanRed.insertCell(5);
+                  cSlika = prazanRed.insertCell(6);
+                  cCena = prazanRed.insertCell(7);
+                  for(let i = 0; i< rezultat.length; i++) {
+                    cNazivArtikla.innerHTML = rezultat[i].sifra;
+                    cProizvodjac.innerHTML = rezultat[i].nproizvodjac;
+                    cJezgro.innerHTML = rezultat[i].njezgro;
+                    cThread.innerHTML = rezultat[i].nthread;
+                    cRadnaFrek.innerHTML = rezultat[i].nfrek;
+                    cTipProcesora.innerHTML = rezultat[i].ncpu;
+                    cSlika.innerHTML = (`<img src ='./slike/procesor2/${rezultat[i].slika}' height='100px',  alt='slika'><img>`);
+                    cCena.innerHTML = rezultat[i].cena;
+                  }
+                } else {
+                  tabela.style.display = 'none';
+                  ispis.innerHTML ='Trenutno nemamo artikle sa zadatim kriterijumom pretrage';
+                }
+              });
+              
+              console.log(artikli);
+              
+              
+            }
+      
+        
+        }
+
+        function kreirajTabelu(){
+          var div = document.createElement("div");
+          document.body.appendChild(div);
+          // div.innerHTML= 'neki tekst';
+          div.classList.add('tabela');
+          // div.setAttribute('class','tabela1');
+          // div.removeAttribute('class');
+          div.innerHTML = `<table id="iTabela">
+        <tr>
+          <td>Naziv artikla</td>
+          <td>Proizvodjac</td>
+          <td>Broj jezgara</td>
+          <td>Broj thread-ova</td>    
+          <td>Radna frekvencija</td>
+          <td>Tip procesora</td>
+          <td>Slika</td>
+          <td>Cena</td>
+
+        </tr>
+
+      </table>`;
+        }
+        function isprazniTabelu(){
+          div = document.getElementsByClassName('tabela')[0];
+          if(div){
+            document.body.removeChild(div);
+          }
+          
+
+        }
+
+
+    </script>
+
+  </body>
+</html>

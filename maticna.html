@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orange Tech. | Matične ploce</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styless.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+<style>
+.thumbnail{
+  background-color: #111111;
+  border-width: 0px 0px 2px 0px;
+  border-color: #EB8442;
+  padding: 0px; }
+h4{
+  padding: 5px;
+  color:#EB8442;
+     }
+.center_image {
+  width: 655px;
+  height: 400px;
+  margin: 0 auto;
+}
+#skrol{
+  position: fixed;
+  right: 150px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #EB8442;
+  outline: none;
+  color: white;
+  border: none;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top"><!-- Pocetak navbara -->
+      <div class="container"><!-- Konteiner za navbar -->
+        <div class="navbar-header"><!-- Brand ide ovde -->
+          <!-- Hamburger dugme -->
+          <button type="button" class="navbar-toggle collapsed" 
+            data-toggle="collapse" 
+            data-target="#collapsemenu"><!--  -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">
+            <!-- Logo -->
+            <img src="slike/orange_logo.png" width="120px" height="35px" alt="Orange Logo">
+            
+          </a>
+        </div><!-- Kraj diva za brend -->
+        <!-- Pocetak diva za collapse -->
+        <div class="collapse navbar-collapse" id="collapsemenu">
+            <ul class="nav navbar-nav font" ><!-- Pocetak liste za navbar -->
+              <li><a href="index.html">POČETNA</a></li>
+              <!-- <li><a href="Proizvodi.html">PROIZVODI</a></li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  PROIZVODI
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="procesori2.html">PROCESORI</a><br>
+                  <a class="dropdown-item" href="#">GRAFIČKE KARTE</a><br>
+                  <a class="dropdown-item" href="#">MATIČNE PLOČE</a><br>
+                  <a class="dropdown-item" href="#">RAM MEMORIJA</a><br>
+                  <a class="dropdown-item" href="#">SSD I HDD</a><br>
+                  <a class="dropdown-item" href="#">NAPAJANJA</a>
+                </div>
+              </li>
+              <li><a href="O_nama.html">O NAMA</a></li>
+              <li><a href="kontakt.html">KONTAKT</a></li>
+          </ul><!-- Kraj liste -->
+        </div><!-- Kraj div collapsa -->
+      </div><!-- Kraj konteiner navbara -->
+    </nav><!-- Kraj navbara -->
+    <div class="container content"><!-- Pocetak glavnog konteinera -->
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="slike/maticne/maticnacover.jpg" alt="Maticna cover"/>
+        </div><!-- row -->
+      </div><!-- col-md-12 -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header">
+            <h3 style="text-align: center;">Karakteristike</h3>
+          </div><!-- page-header -->
+          <ul id="karakteristike">
+            <p><b style="color: #EB8442;">Matična ploča</b> se sastoji iz različitih elemenata, koji se nalaze na njenom PCB-u (print circuit board), odnosno na štampanoj ploči. 
+              PCB služi kao osnova na koju se podom dodaju razni čipovi, naponske sekcije, procesorska podnožja, slotovi za memorije i kartice za proširenje, SATA portovi,
+               različiti specijalni tasteri, pinovi i slično.
+                U ovom tekstu ćemo se ukratko pozabaviti objašnjenjem najvažnijih elemenata savremenih matičnih ploča i pojasniti njihove osnovne funkcije.
+                 Nećemo se baviti svim komponentama niti detaljnim opisima njihovih funkcija, već samo komponentama koje su najvažnije za korisnike
+                  i sa kojima će korisnik vršiti interakciju.</p>
+                  <img class="img-responsive center_image" src="slike/maticne/maticna1.jpg" alt="Maticna 1"> <br>
+                  <p><b style="color: #EB8442">Procesorsko podnožje</b> (socket, slot) je mehanička komponenta koja omogućava mehanički i električni interfejs koji povezuje mikroprocesor i štampanu ploču (PCB).
+                     Prostije rečeno, podnožje služi da se u njega „smesti“ procesor. 
+                     Nalazi se na matičnoj ploči uglavnom u gornjem centralnom delu, jasno je označeno i lako se raspoznaje. 
+                     Montiranje procesora u podnožje je najčešće brzo i lako, ali uvek treba dobro proučiti uputstvo, naročito kada se pristupi montiranju kulera, 
+                     pošto se mehanizmi montiranja razlikuju u zavisnosti od tipa podnožja.</p> <br>
+                     <img class="img-responsive center_image" src="slike/maticne/maticna2.jpg" alt="Maticna 2"> <br>
+                     <p><b style="color: #EB8442;">Čipset</b> je kontrolerska logika matične ploče grupisana unutar jednog čipa, koja određuje njene sposobnosti i mogućnosti. 
+                       Čipseti su podeljeni po platformama i cenovnim razredima, i predstavljaju jednu od najbitnijih komponenti svake matične ploče. 
+                       U današnje vreme se čipseti uglavnom nalaze ispod najčešće pasivnog (ređe aktivnog) kulera u donjem desnom delu matične ploče.</p> <br>
+                       <img class="img-responsive center_image" src="slike/maticne/maticna3.jpg" alt="Maticna 3"> <br>
+                       <p><b style="color: #EB8442;">Konektori za napajanje</b> predstavljaju tačke na koje se povezuju napajanja računara, kako bi se ploča i njene komponente snabdevale strujom. 
+                         U praksi, imamo 20+4-pinski konektor na desnoj strani ploče, kao i 4+4-pinski konektor, najčešće smešten blizu procesora. 
+                         Njihova funkcija je jasna i jednoznačna.</p> <br>
+                         <img class="img-responsive center_image" src="slike/maticne/maticna4.jpg" alt="Maticna 4"> <br>
+                         <p><b style="color: #EB8442;">Naponska sekcija</b> služi za regulaciju napona i održavanje napona (a samim tim i dotoka struje) konstantnim. 
+                           Uglavnom se komponente koje je čine hlade pasivno (nekada i aktivno) i nalaze se raspoređene oko procesorskog podnožja. 
+                           U principu, što je ploča kvalitetnija i skuplja, to je naponska sekcija veća, bolje hlađenja i impozantnije dizajnirana.</p>
+                           <img class="img-responsive center_image" src="slike/maticne/maticna5.jpg" alt="Maticna 5"> <br>
+                           <p><b style="color: #EB8442;">Memorijski slotovi</b> su slotovi u koje se priključuje sistemska memorija, odnosno DRAM. 
+                             Radi se o duguljastim, jasno označenim slotovima, uglavnom pozicioniranim u gornjem desnom uglu matične ploče, desno od procesora. 
+                             Najčešće dolaze u naspramnim parovima i jasno je označeno u koje se parove treba povezati, kako bi se aktivirao dual/tripple/quad channel, 
+                             zarad maksimalnih performansi. Ploče imaju dva, četiri, šest ili osam slotova, pri čemu se na većini matičnih ploča 
+                             koje su od interesa za korisnike najčešće viđaju četiri slota.</p> <br>
+                             <img class="img-responsive center_image" src="slike/maticne/maticna6.jpg" alt="Maticna 6"> <br>
+                             <p><b style="color: #EB8442;">Zadnji panel</b> je panel sa portovima i konektorima koji će korisniku omogućiti da poveže periferije i druge uređaje, 
+                               i zapravo je jedini vidljiv i dostupan element ploče nakon montiranja ploče i zatvaranja kućišta. 
+                               Tu se nalaze USB portovi, audio konektori, LAN portovi, neretko i video izlazi (DVI, VGA, HDMI), serijski i printer portovi i sl. 
+                               Na njih se povezuju eksterni uređaji, poput monitora, miša, tastature, rutera i tako dalje.</p> <br>
+
+                               <p><b style="color: #EB8442;">PCI Express</b> (Peripheral Component Interconnect Express), ili kraće PCIe, jeste standard serijskog busa za proširenje 
+                                 i u ovakve slotove ubacujemo tzv. „kartice za proširenje“, odnosno kartice kojima proširujemo mogućnosti svog računara 
+                                 (video karte, zvučne karte, eksterni kontroleri), a koje dolaze sa PCIe interfejsom. PCIe ima mnoštvo dobrih karakteristika, 
+                                 uključujući visoke brzine, bolje performanse, bolje skaliranje, mogućnost direktnog priključivanja komponenti (hot-plug funkcionalnost), 
+                                 unapređeni I/O, bolju detekciju i prijavljivanje grešaka. PCI Express slotovi imaju oblik duguljastog kvadra, 
+                                 sa rupom u sredini u koju se smeštaju kartice za proširenje. Slotovi se fizički razlikuju, i to po dužini. 
+                                 Fizički PCIe slotovi mogu imati od jedne do 32 staze, što se označava oznakama x1 (1 staza), x4 (4 staze), x16 (16 staza) i tako dalje. 
+                                 Što više staza, slot je „duguljastiji“.</p> <br>
+                                 <img class="img-responsive center_image" src="slike/maticne/maticna7.jpg" alt="Maticna 7"> <br>
+                                 <p>U svakodnevnom korišćenju, najinteresantniji su „grafički slotovi“, odnosno x16 slotovi, koji su dugački i lako uočljivi na matičnim pločama. 
+                                   U ove slotove se ubacuju grafičke karte kako bi se dobio maksimum performansi. Ostali slotovi su kraći, 
+                                   i uglavnom ispod ili između grafičkih slotova (ukoliko ih ima više). Na primer, x4 slot je duži od x1 slota. 
+                                   Takođe, moguće je PCIe uređaje ubacivati u „duže“ slotove. Obrnuto ne važi.</p> <br>
+                                   <img class="img-responsive center_image" src="slike/maticne/maticna8.jpg" alt="Maticna 8"> <br>
+                                   <p><b style="color: #EB8442;">SATA portovi</b> su konektori na koje povezujemo diskove, uključujući tu hard diskove, solid state drajvove i optičke uređaje. 
+                                     Drugim rečima, služe za povezivanje uređaja koje koristimo za skladištenje podataka. Malih su dimenzija i 
+                                     uglavnom smešteni u donjem desnom uglu ploče. Mogu biti okrenuti prema gore, zavijeni pod uglom od 90 stepeni, ili kombinovano, 
+                                     kako bi se korisniku omogućilo da maksimalno iskoristi prostor. Trenutno je aktivna revizija 3.2 ovog standarda, 
+                                     koja omogućava maksimalne brzine transfera od 600 MB/s.</p>
+                                     <img class="img-responsive center_image" src="slike/maticne/maticna9.jpg" alt="Maticna 9"> <br>
+                                     <p><b style="color: #EB8442;">Konektori za ventilatore</b> su tropinski i četvoropinski konektori raspoređeni na ploči 
+                                       (ima ih dva ili više, uglavnom tri do četiri komada, ali ima i ploča sa još više priključaka) 
+                                       tako da se na njih mogu povezati kuleri procesora ili kućišta. Ovi konektori deluju kao da su „razbacani“, 
+                                       ali su raspoređeni po ploči tako da ih kratki kablovi za napajanje kulera mogu dohvatiti. Treba razlikovati na koje se konektore 
+                                       povezuju procesorski kuleri, a na koje kuleri kućišta, i takvi konektori se razlikuju po oznakama koje su pored njih.
+                                       <br><br>
+                                      <b style="color: #EB8442;">BIOS (Basic Input/Output System)</b> stiže u vidu čipa zalemljenog za ploču (jedan ili dva BIOSa se mogu naći na današnjim pločama). 
+                                      Njegova osnovna funkcija jeste da inicijalizuje matičnu ploču, odnosno njene komponente, 
+                                      kao i da učita odgovarajući operativni sistem nakon toga. Takođe, on testira hardverske komponente i služi kao „most“ putem koga 
+                                      se vrši interakcija sa tastaturom i mišem, monitorom i drugim input/output uređajima.</p>
+                                      <img class="img-responsive center_image" src="slike/maticne/maticna10.jpg" alt="Maticna 10"> <br>
+                                      <p><b style="color: #EB8442;">Front Panel Headeri</b> su skup priključaka koji deluju kao grupa gusto raspoređenih iglica/pinova. 
+                                        Služe za povezivanje odgovarajućeg interfejsa kojim ploča komunicira sa kućištem. Tako imamo označene pinove koji služe za povezivanje 
+                                        tastera za paljenje i resetovanje računara, indikatora rada, internog zvučnika i slično.</p>
+                                        <img class="img-responsive center_image" src="slike/maticne/maticna11.jpg" alt="Maticna 11"> <br>
+                                        <p><b style="color: #EB8442;">USB headeri</b> su slični opisanim front panel headerima, sa tom razlikom što je njihova funkcija da obezbede priključivanje i 
+                                          obezbeđivanje dodatnih USB portova, bilo da se radi o USB portovima na prednjoj strani kućišta, 
+                                          bilo da se radi o dodatnim portovima sa zadnje strane računara.</p> <br>
+                                          <img class="img-responsive center_image" src="slike/maticne/maticna12.jpg" alt="Maticna 12"> <br>
+                                          <p><b style="color: #EB8442;">Dodatni tasteri</b> su razni dodatni tasteri čija implementacija, raspored i funkcija zavise od ploče do ploče. 
+                                            Najčešće se radi o dodatnim funkcijama, posebno optimizovanim za laki overkloking, i različiti proizvođači ih implementiraju 
+                                            na pojedine ploče, i nazivaju na različite načine. Tako često imamo Start i Reset tastere, tastere za brzo overklokovanje ili 
+                                            vraćanje na podrazumevane vrednosti. U principu, ovakvi tasteri nisu esencijalni (samim tim ih skoro i ne viđamo na najjeftinijim 
+                                            matičnim pločama), ali mogu biti veoma korisni određenim grupama korisnika, te su dobrodošao dodatak koji olakšava izvršavanje 
+                                            pojedinih funkcija.</p>
+          </ul>
+        </div><!-- col-md-6 -->
+      </div><!-- row -->
+
+      <div class="row"> <!--header za dodatne karakteristike-->
+        <div class="col-md-12">
+          <div class="page-header">
+            <h3 style="text-align: center;">Dodatne karakteristike</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6"> <!-- leva strana karakteristika-->
+          <blockquote>
+            <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+             Proizvođači:
+              <li>AMD</li>
+              <li>Intel</li>
+            </p>
+            </blockquote>
+            <blockquote>
+              <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+              Čipset:
+              <li>AMD A320</li>
+              <li>AMD B350</li>
+              <li>AMD B450</li>
+              <li>AMD B550</li>
+              <li>AMD TRX40</li>
+              <li>AMD X399</li>
+              <li>AMD X570</li>
+              <li>Intel B250</li>
+              <li>Intel B360</li>
+              <li>Intel B365</li>
+              <li>Intel B460</li>
+              <li>Intel H110</li>
+              <li>Intel H310</li>
+              <li>Intel H370</li>
+              <li>Intel H410</li>
+              <li>Intel X299</li>
+              <li>Intel Z270</li>
+              <li>Intel Z390</li>
+              <li>Intel Z490</li>
+              </p>
+            </blockquote>
+        </div><!-- col-md-6 -->
+
+        <div class="col-md-6"> <!--desna strana karakteristika-->
+            <blockquote>
+              <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+               Podržana memorija:
+                <li>DDR3</li>
+                <li>DDR4</li>
+              </p>
+              </blockquote>
+          <blockquote>
+            <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+             Formati matičnih ploča:
+              <li>ATX</li>
+              <li>E-ATX</li>
+              <li>Micro ATX</li>
+              <li>Mini ITXs</li> 
+            </p>
+            </blockquote>
+          <blockquote>
+            <p class="contenteditable"><!-- contenteditable klasa za oblikovanje teksta -->
+            Podnožja matinih ploča:
+            <li>AMD AM4</li>
+            <li>AMD TR4</li>
+            <li>AMD sTRX4</li>
+            <li>Intel 1151 (6. i 7. gen.)</li>
+            <li>Intel 1151 (8. i 9. gen.)</li>
+            <li>Intel 1200</li>
+            <li>Intel 2066</li>
+            </p>
+          </blockquote>
+        </div><!-- col-md-6 -->
+      </div><!-- row -->
+
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header">
+            <h3 style="text-align: center;">Galerija</h3>
+          </div><!-- page-header -->
+          <div class="row">
+             <div class="col-md-4">
+               <img class="img-responsive zoom_05" src="slike/maticne/slika1.jpg" alt="Maticna 13" data-zoom-image="slike/maticne/slika1.jpg"/>
+             </div><!-- col-md-4  -->
+              <div class="col-md-4">
+                <img class="img-responsive zoom_05" src="slike/maticne/slika2.jpg" alt="Maticna 14" data-zoom-image="slike/maticne/slika2.jpg"/>
+              </div><!-- col-md-4  -->
+              <div class="col-md-4">
+                <img class="img-responsive zoom_05" src="slike/maticne/slika3.jpg" alt="Maticna 15" data-zoom-image="slike/maticne/slika3.jpg"/>
+              </div><!-- col-md-4  -->  
+          </div><!-- row -->
+          <div class="row" style="margin-top: 10px;">
+            <div class="col-md-4">
+               <img class="img-responsive zoom_05" src="slike/maticne/slika4.jpg" alt="Maticna 16" data-zoom-image="slike/maticne/slika4.jpg"/>
+             </div><!-- col-md-4  -->
+             <div class="col-md-4">
+               <img class="img-responsive zoom_05" src="slike/maticne/slika5.jpg" alt="Maticna 17" data-zoom-image="slike/maticne/slika5.jpg"/>
+             </div><!-- col-md-4  -->
+             <div class="col-md-4">
+               <img class="img-responsive zoom_05" src="slike/maticne/slika6.jpg" alt="Maticna 18" data-zoom-image="slike/maticne/slika6.jpg"/>
+             </div><!-- col-md-4  -->
+          </div><!-- row -->
+        </div><!-- "col-md-12" -->
+      </div><!-- row -->
+
+      <button id="skrol">
+        <i>&#8593;</i>
+      </button>
+      
+        <footer><!-- Footer -->
+        <div class="col-md-2 col-md-offset-5  col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3 "><!-- div -->
+          <ul class="list-inline footer-social-icons">
+            <li>
+              <a href="#" target="_blank">
+                 <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </li>
+            <li class="center-block">
+              <a href="#" target="_blank">
+                <i class="fa fa-twitter-square fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa fa-instagram fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div><!--  div kraj -->
+        <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6  col-xs-10 col-xs-offset-1 col-lg-offset-4 col-lg-4"><!--  div2 -->
+        </div><!-- div2 kraj -->
+        <div class="col-md-offset-4 col-md-4  col-sm-12  col-xs-12 ">
+          <ul class="list-inline">
+            <li><a href="index.html">POČETNA </a>|</li>
+            <li><a href="kontakt.html">KONTAKT </a>|</li>
+            <li><a href="FAQ.html">FAQ </a></li>
+          </ul>
+        </div>
+        <div class="col-md-offset-4 col-md-4 centered col-sm-offset-3 col-sm-6 col-xs-10 col-xs-offset-1" ><!--  div3  -->
+          <h6 style="color: #9d9d9d; text-align: center;">Copyright © 2020 orange tech. Sva prava zadržana.</h6>
+        </div><!-- div3 kraj -->
+      </footer><!-- Footer kraj -->
+    </div><!-- Kraj glavnog konteinera -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.elevatezoom.js"></script>
+    <!-- skripta za zoom od elevata -->
+    <script>
+          $('.zoom_05').elevateZoom({zoomType: "inner",cursor: "crosshair", zoomWindowFadeIn: 500,zoomWindowFadeOut: 750}); 
+    </script>
+    <script>
+      $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip(); 
+      });
+    </script>
+    <script src="korpa.js"></script>
+  </body>
+</html>

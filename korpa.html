@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <title>Orange Tech. | Korpa</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styless.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    
+<style>
+.thumbnail{
+  background-color: #111111;
+  border-width: 0px 0px 2px 0px;
+  border-color: #EB8442;
+  padding: 0px; 
+  margin-top: 20px;}
+h4{
+  padding: 5px;
+  color:#EB8442;
+     }
+.dropdown-menu {
+  color: #686666;
+  background-color: #111111;
+     }
+.dropdown-item{
+  color: #686666;
+     }
+.dropdown-item:hover {
+  color: #EB8442;
+     }
+.dropdown-item a {
+  padding: 10px;
+  margin: 10px;
+     }
+.dropdown:hover>.dropdown-menu {
+  display: block;
+     }
+
+/* Podesavanja za kolicinu */
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #EB8442;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+/* Poslednja linija ispod proizvoda */
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+/* Ukupna cena */
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+/* Ukupno naslov */
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #EB8442;
+    margin-right: 20px;
+}
+/* Ukupno cena */
+.cart-total-price {
+    color: white;
+    font-size: 1.1em;
+}
+/* Dugme zavrsi kupovinu */
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+/* Red - da proizvod,cena, kolicina budu i istom redu */
+.cart-row {
+    display: flex;
+}
+/* Razmak izmedju naslova,cene,kolicine */
+.cart-item {
+    width: 45%;
+}
+/* Red CENA */
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: white;
+}
+/* Linije u kolicini */
+.cart-quantity {
+    width: 35%;
+}
+/* Tekst u proizvod */
+.cart-item-title {
+    color: white;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+/* Podesavanje kolona i razmak izmedju njih */
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+/* Naslov proizvoda,cena,kolicina */
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #EB8442;
+}
+ </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top"><!-- Pocetak navbara -->
+      <div class="container"><!-- Konteiner za navbar -->
+        <div class="navbar-header"><!-- Brand ide ovde -->
+          <!-- Hamburger dugme -->
+          <button type="button" class="navbar-toggle collapsed" 
+            data-toggle="collapse" 
+            data-target="#collapsemenu"><!--  -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">
+            <!-- Logo -->
+            <img src="slike/orange_logo.png" width="120px" height="35px" alt="Orange Logo">
+          </a>
+        </div><!-- Kraj diva za brend -->
+        <!-- Pocetak diva za collapse -->
+        <div class="collapse navbar-collapse" id="collapsemenu">
+            <ul class="nav navbar-nav font" ><!-- Pocetak liste za navbar -->
+              <li class="active"><a href="index.html">POČETNA</a></li>
+
+              <!-- <li><a href="Proizvodi.html">PROIZVODI</a></li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  PROIZVODI
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="procesori2.html">PROCESORI</a><br>
+                  <a class="dropdown-item" href="#">GRAFIČKE KARTE</a><br>
+                  <a class="dropdown-item" href="#">MATIČNE PLOČE</a><br>
+                  <a class="dropdown-item" href="#">RAM MEMORIJA</a><br>
+                  <a class="dropdown-item" href="#">SSD I HDD</a><br>
+                  <a class="dropdown-item" href="#">NAPAJANJA</a>
+                </div>
+              </li>
+              <li><a href="O_nama.html">O NAMA</a></li>
+              <li><a href="kontakt.html">KONTAKT</a></li>
+          </ul><!-- Kraj liste -->
+        </div><!-- Kraj div collapsa -->
+      </div><!-- Kraj konteiner navbara -->
+    </nav><!-- Kraj navbara -->
+    <br><br><br>
+    <section class="container content-section">
+      <h2 class="section-header"></h2>
+      <div class="cart-row">
+          <span class="cart-item cart-header cart-column">PROIZVOD</span>
+          <span class="cart-price cart-header cart-column">CENA</span>
+          <span class="cart-quantity cart-header cart-column">KOLIČINA</span>
+      </div>
+
+      <div class="cart-items">
+          <div class="cart-row">
+              <div class="cart-item cart-column">
+                  <img class="cart-item-image" src="slike/procesor2/ryzen53600x.png" width="100" height="100">
+                  <span class="cart-item-title">Ryzen 5 3600X</span>
+              </div>
+              <span class="cart-price cart-column">32.999RSD</span>
+              <div class="cart-quantity cart-column">
+                  <input class="cart-quantity-input" type="number" value="1">
+                  <button class="btn btn-danger" type="button">OBRIŠI</button>
+              </div>
+          </div>
+          <div class="cart-row">
+              <div class="cart-item cart-column">
+                  <img class="cart-item-image" src="slike/procesor2/ryzen73700x.png" width="100" height="100">
+                  <span class="cart-item-title">Ryzen 7 3700X</span>
+              </div>
+              <span class="cart-price cart-column">41.999RSD</span>
+              <div class="cart-quantity cart-column">
+                  <input class="cart-quantity-input" type="number" value="2">
+                  <button class="btn btn-danger" type="button">OBRIŠI</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="cart-total">
+          <strong class="cart-total-title">Ukupno</strong>
+          <span class="cart-total-price">74.998RSD</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">Završi kupovinu</button>
+  </section>
+
+
+          <footer><!-- Footer -->
+        <div class="col-md-2 col-md-offset-5  col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3 "><!--  div -->
+          <ul class="list-inline footer-social-icons">
+            <li>
+              <a href="#" target="_blank">
+                 <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </li>
+            <li class="center-block">
+              <a href="#" target="_blank">
+                <i class="fa fa-twitter-square fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa fa-instagram fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div><!-- div kraj -->
+
+
+        <div class="col-md-offset-4 col-md-4  col-sm-12  col-xs-12 ">
+          <ul class="list-inline">
+            <li><a href="index.html">POČETNA </a>|</li>
+            <li><a href="kontakt.html">KONTAKT </a>|</li>
+            <li><a href="FAQ.html">FAQ </a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-offset-4 col-md-4 centered col-sm-offset-3 col-sm-6 col-xs-10" ><!--  div2  -->
+          <h6 style="color: #9d9d9d; text-align: center;">Copyright © 2020 orange tech. Sva prava zadržana.</h6>
+        </div><!--  div2 kraj -->
+      </footer><!-- Footer kraj -->
+    </div><!-- Kraj glavnog konteinera -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="korpa.js"></script>
+  </body>
+</html>
